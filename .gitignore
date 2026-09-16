@@ -1,0 +1,12 @@
+.DS_Store
+.context/
+dist/
+__pycache__/
+.sc/
+.codex/
+docs/
+
+# Local environment files
+.env
+.env.*
+*.env

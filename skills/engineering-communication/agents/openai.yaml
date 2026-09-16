@@ -1,0 +1,4 @@
+interface:
+  display_name: "Engineering Communication"
+  short_description: "Clear, behaviour-first engineering responses"
+  default_prompt: "Use $engineering-communication to explain this engineering work concisely, leading with behaviour and preserving the evidence."

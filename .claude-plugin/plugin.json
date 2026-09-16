@@ -1,0 +1,19 @@
+{
+  "name": "agent-skills",
+  "version": "0.1.0",
+  "description": "Skills by Panos Spiliotis for clear engineering communication and reusable agent workflows.",
+  "author": {
+    "name": "Panos Spiliotis",
+    "url": "https://github.com/panosdigital"
+  },
+  "homepage": "https://github.com/panosdigital/agent-skills",
+  "repository": "https://github.com/panosdigital/agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "engineering",
+    "communication",
+    "code-review",
+    "agent-skills"
+  ],
+  "skills": "./skills/"
+}

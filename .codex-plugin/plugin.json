@@ -1,0 +1,31 @@
+{
+  "name": "agent-skills",
+  "version": "0.1.0",
+  "description": "Skills by Panos Spiliotis for clear engineering communication and reusable agent workflows.",
+  "author": {
+    "name": "Panos Spiliotis",
+    "url": "https://github.com/panosdigital"
+  },
+  "homepage": "https://github.com/panosdigital/agent-skills",
+  "repository": "https://github.com/panosdigital/agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "engineering",
+    "communication",
+    "code-review",
+    "agent-skills"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Panos Digital Skills",
+    "shortDescription": "Clear, behaviour-first engineering communication.",
+    "longDescription": "Reusable skills by Panos Spiliotis. The first skill helps coding agents explain diagnoses, architecture, reviews, plans, progress, and handoffs without losing evidence or requested detail. Instructions only: no bundled scripts, services, or account connections.",
+    "developerName": "Panos Spiliotis",
+    "category": "Productivity",
+    "capabilities": [],
+    "websiteURL": "https://github.com/panosdigital/agent-skills",
+    "defaultPrompt": [
+      "Use engineering-communication to explain this change, leading with its behaviour and preserving verification details."
+    ]
+  }
+}

@@ -58,7 +58,7 @@ You can also download the repository and copy `skills/engineering-communication`
 
 The skill follows the [Agent Skills specification](https://agentskills.io/specification). It contains Markdown instructions and optional OpenAI display metadata, with no executable helpers, required MCP servers, API keys, services, or runtime dependencies.
 
-It is intended for Claude Code, Codex, and other agents that support the format. Loading and invocation behavior depends on the host. See [evaluation cases](evals/engineering-communication.md) for reproducible checks; cross-agent performance is not claimed as measured.
+Works with any agent that supports the Agent Skills format, including Claude Code and Codex. Loading and invocation behavior depends on the host. See [evaluation cases](evals/engineering-communication.md) for reproducible checks.
 
 ## Use
 

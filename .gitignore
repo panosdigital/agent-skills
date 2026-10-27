@@ -5,6 +5,7 @@ __pycache__/
 .sc/
 .codex/
 docs/
+promptfooconfig.yaml
 
 # Local environment files
 .env

@@ -1,11 +1,14 @@
 .DS_Store
 .context/
 dist/
+node_modules/
 __pycache__/
 .sc/
 .codex/
 docs/
 promptfooconfig.yaml
+/package.json
+/package-lock.json
 
 # Local environment files
 .env

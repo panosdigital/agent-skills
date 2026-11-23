@@ -9,6 +9,8 @@ docs/
 promptfooconfig.yaml
 /package.json
 /package-lock.json
+/evals/fixtures/
+/evals/verify_fixtures.py
 
 # Local environment files
 .env

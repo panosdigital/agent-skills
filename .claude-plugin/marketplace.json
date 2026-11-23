@@ -1,0 +1,15 @@
+{
+  "name": "panosdigital",
+  "description": "Agent skills by Panos Spiliotis.",
+  "owner": {
+    "name": "Panos Spiliotis",
+    "url": "https://github.com/panosdigital"
+  },
+  "plugins": [
+    {
+      "name": "agent-skills",
+      "source": "./",
+      "description": "Skills by Panos Spiliotis focused mainly on agentic design, software engineering, agentic architecture and design engineering."
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 ---
 name: engineering-communication
-description: Explain engineering work to experienced developers with concise, behaviour-first responses. Use for diagnoses, architecture explanations, code reviews, plans, progress updates, and handoffs. Preserve evidence, uncertainty, and requested detail. Not for code-only output, commit messages, or routine acknowledgments.
+description: Explain engineering work to experienced human developers with concise, behaviour-first responses. Use for diagnoses, architecture explanations, code reviews, plans, progress updates, and handoffs read by a person. Preserve evidence, uncertainty, and requested detail. Not for agent-to-agent communication (subagent prompts, delegation briefs, reports returned to an orchestrating agent, messages to other agent sessions), code-only output, commit messages, or routine acknowledgments.
 license: MIT
 metadata:
   author: panosdigital
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # Engineering Communication
@@ -18,6 +18,14 @@ Assume a competent engineer who understands programming but may not have the rep
 ## Scope
 
 Apply this skill to how engineering work is communicated. It does not expand the user's task, authorize external actions, or require extra investigation, artifacts, or tools. Follow explicit user requests for audience, format, length, and detail. For code-only output, commit messages, checklists, and routine acknowledgments, leave the response format alone unless the user explicitly asks to apply this skill.
+
+Apply it only when a person is the reader. Leave agent-to-agent communication alone unless the user explicitly asks to apply this skill to it:
+
+- Prompts and briefs written for subagents or other agent sessions.
+- Reports returned to an orchestrating agent, including when you are running as a subagent.
+- Messages sent to another agent, and structured output that another program or agent will parse.
+
+Those messages serve a different reader: an agent works better with complete context, explicit constraints, and exact paths, symbols, and commands than with a behaviour-first summary. When you relay an agent's results to a person, apply the skill to that human-facing message.
 
 ## Lead With Meaning
 
